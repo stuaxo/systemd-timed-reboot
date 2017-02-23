@@ -1,0 +1,6 @@
+[Unit]
+Description=reboot job
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/reboot

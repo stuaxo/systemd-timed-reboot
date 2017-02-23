@@ -1,0 +1,9 @@
+[Unit]
+Description=reboot at specific times
+
+[Timer]
+OnBootSec=24h
+
+[Install]
+WantedBy=timers.target
+
